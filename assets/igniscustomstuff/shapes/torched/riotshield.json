@@ -1,0 +1,918 @@
+{
+  "editor": {
+    "backDropShape": "",
+    "collapsedPaths": "",
+    "allAngles": false,
+    "entityTextureMode": false,
+    "singleTexture": false,
+    "vsFormatConverted": false
+  },
+  "textureWidth": 32,
+  "textureHeight": 32,
+  "textureSizes": {
+    "iron": [64, 32],
+    "black.png": [32, 32]
+  },
+  "textures": {
+    "iron": "game:item/tool/material/iron",
+    "black.png": "game:item/tool/shield/leather/black"
+  },
+  "elements": [
+    {
+      "name": "bone",
+      "from": [0, 8, 2],
+      "to": [0, 8, 2],
+      "rotationOrigin": [0, 8, 2],
+      "children": [
+        {
+          "name": "cube",
+          "from": [0, 1, -5],
+          "to": [4, 2, 11],
+          "rotationOrigin": [0, 2, -5],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [0, 0, 16, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [1, 0, 17, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [2, 0, 10, 32],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [2, 0, 10, 32],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": -5,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [3.92285, -0.04349, -5],
+          "to": [7.92285, 0.95651, 9],
+          "rotationOrigin": [7.925, 0.95, 9],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [2, 11, 30, 13],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [2, 11, 30, 13],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [18, 0, 26, 28],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [18, 4, 26, 32],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": -10,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [3.39785, -0.04349, 7.175],
+          "to": [7.92285, 0.95651, 9],
+          "rotationOrigin": [7.925, 0.95, 9],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [10, 8, 19, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [1, 0, 2.825, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [11, 11, 20, 13],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [13.175, 0, 15, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [11.475, 23.475, 20, 27.3],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [8.475, 18.175, 17, 22],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationX": 1.61437,
+          "rotationY": 26.33215,
+          "rotationZ": -9.67046,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-4, 1, -5],
+          "to": [0, 2, 11],
+          "rotationOrigin": [0, 2, 2],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [0, 0, 16, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [1, 0, 17, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [17, 0, 25, 32],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [10, 0, 2, 32],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": 5,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-7.92285, -0.04349, 7.175],
+          "to": [-3.42285, 0.95651, 9],
+          "rotationOrigin": [-7.925, 0.95, 9],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [6, 11, 15, 13],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [1, 0, 2.825, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [7, 7, 16, 9],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [13.175, 0, 15, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [17.475, 14.175, 26, 18],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [7.475, 20.175, 16, 24],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationX": 1.61437,
+          "rotationY": -26.33215,
+          "rotationZ": 9.67046,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-7.92285, -0.04349, -5],
+          "to": [-3.92285, 0.95651, 9],
+          "rotationOrigin": [-7.925, 0.95, 9],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [2, 11, 30, 13],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [6, 5, 14, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [2, 11, 30, 13],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [6, 32, 14, 4],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [26, 4, 18, 32],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": 10,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [3.92285, -0.04349, -11],
+          "to": [7.92285, 0.95651, -8],
+          "rotationOrigin": [7.925, 0.95, -11],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [5, 8, 13, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [15, 8, 21, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [5, 8, 13, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [15, 8, 21, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [19, 23, 27, 29],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [15, 15, 23, 21],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": -10,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [3.79785, -0.04349, -11],
+          "to": [7.92285, 0.95651, -9.975],
+          "rotationOrigin": [7.925, 0.95, -11],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [10.875, 12, 19.375, 14],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [1.975, 0, 3, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [10.875, 12, 19.375, 14],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [14, 0, 15.025, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [4.875, 16, 13, 18.025],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [5.875, 22, 14, 24.025],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationX": -1.21156,
+          "rotationY": -14.00331,
+          "rotationZ": -9.99532,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [0, 1, -12],
+          "to": [4, 2, -8],
+          "rotationOrigin": [0, 2, -5],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [17, 20, 25, 28],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [7, 8, 15, 16],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": -5,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-4, 1, -12],
+          "to": [0, 2, -8],
+          "rotationOrigin": [0, 2, 2],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [9, 4, 17, 6],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [16, 17, 24, 25],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [7, 14, 15, 22],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": 5,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-7.92285, -0.04349, -11],
+          "to": [-3.92285, 0.95651, -8],
+          "rotationOrigin": [-7.925, 0.95, -11],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [5, 8, 13, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [17, 5, 23, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [5, 8, 13, 10],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [17, 5, 23, 7],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [7, 17, 15, 23],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [12, 14, 20, 20],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": 10,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-7.92285, -0.04349, -11],
+          "to": [-3.79785, 0.95651, -10],
+          "rotationOrigin": [-7.925, 0.95, -11],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [10.875, 12, 19.375, 14],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [2, 0, 3, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [10.875, 12, 19.375, 14],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [14, 0, 15, 1],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [5, 25, 13.125, 27],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [5, 25, 13.125, 27],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationX": -1.71886,
+          "rotationY": 13.916,
+          "rotationZ": 9.8677,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [4.98478, 1.34862, -8],
+          "to": [7.98478, 2.34862, -5],
+          "rotationOrigin": [0, 2, -5],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [22, 22, 28, 28],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [8, 15, 14, 21],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": -10,
+          "renderPass": 0
+        },
+        {
+          "name": "cube",
+          "from": [-7.98478, 1.34862, -8],
+          "to": [-4.98478, 2.34862, -5],
+          "rotationOrigin": [0, 2, 2],
+          "faces": {
+            "north": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "east": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "south": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "west": {
+              "texture": "#black.png",
+              "uv": [15, 3, 21, 5],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "up": {
+              "texture": "#black.png",
+              "uv": [9, 22, 15, 28],
+              "autoUv": false,
+              "snapUv": false
+            },
+            "down": {
+              "texture": "#black.png",
+              "uv": [18, 14, 24, 20],
+              "autoUv": false,
+              "snapUv": false
+            }
+          },
+          "rotationZ": 10,
+          "renderPass": 0
+        },
+        {
+          "name": "bone2",
+          "from": [0, 3.65, -2.575],
+          "to": [0, 3.65, -2.575],
+          "rotationOrigin": [0, 3.65, -2.575],
+          "children": [
+            {
+              "name": "cube",
+              "from": [-0.5, -2.75, -2.05],
+              "to": [0.5, -1.475, 13.95],
+              "rotationOrigin": [0, 0, 0],
+              "faces": {
+                "north": {
+                  "texture": "#iron",
+                  "uv": [0.25, 1.5, 1.25, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "east": {
+                  "texture": "#iron",
+                  "uv": [0.075, 1.5, 16.075, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "south": {
+                  "texture": "#iron",
+                  "uv": [0, 1.5, 1, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "west": {
+                  "texture": "#iron",
+                  "uv": [0.025, 1.5, 16.025, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "up": {
+                  "texture": "#iron",
+                  "uv": [0, 0.025, 1, 16.025],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "down": {
+                  "texture": "#iron",
+                  "uv": [0, 0.075, 1, 16.075],
+                  "autoUv": false,
+                  "snapUv": false
+                }
+              },
+              "renderPass": 0
+            },
+            {
+              "name": "cube",
+              "from": [-0.5, -2.75, -9.55],
+              "to": [0.5, -1.475, -2.05],
+              "rotationOrigin": [0, 0, -16],
+              "faces": {
+                "north": {
+                  "texture": "#iron",
+                  "uv": [0.25, 1.5, 1.25, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "east": {
+                  "texture": "#iron",
+                  "uv": [0.075, 1.5, 7.575, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "south": {
+                  "texture": "#iron",
+                  "uv": [0, 1.5, 1, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "west": {
+                  "texture": "#iron",
+                  "uv": [8.525, 1.5, 16.025, 2.775],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "up": {
+                  "texture": "#iron",
+                  "uv": [0, 8.525, 1, 16.025],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "down": {
+                  "texture": "#iron",
+                  "uv": [0, 0.075, 1, 7.575],
+                  "autoUv": false,
+                  "snapUv": false
+                }
+              },
+              "renderPass": 0
+            },
+            {
+              "name": "cube",
+              "from": [-0.55, -4.6, 2.9],
+              "to": [0.55, -2.6, 3.6],
+              "rotationOrigin": [0, -4.6, 3.6],
+              "faces": {
+                "north": {
+                  "texture": "#iron",
+                  "uv": [0.25, 0, 1.35, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "east": {
+                  "texture": "#iron",
+                  "uv": [1.3, 0, 2, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "south": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 1.1, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "west": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 0.7, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "up": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 1.1, 0.7],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "down": {
+                  "texture": "#iron",
+                  "uv": [0, 1.3, 1.1, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                }
+              },
+              "rotationX": 15,
+              "renderPass": 0
+            },
+            {
+              "name": "cube",
+              "from": [-0.55, -4.6, -0.4],
+              "to": [0.55, -2.6, 0.3],
+              "rotationOrigin": [0, -4.6, -0.4],
+              "faces": {
+                "north": {
+                  "texture": "#iron",
+                  "uv": [0.25, 0, 1.35, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "east": {
+                  "texture": "#iron",
+                  "uv": [1.3, 0, 2, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "south": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 1.1, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "west": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 0.7, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "up": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 1.1, 0.7],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "down": {
+                  "texture": "#iron",
+                  "uv": [0, 1.3, 1.1, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                }
+              },
+              "rotationX": -15,
+              "renderPass": 0
+            },
+            {
+              "name": "cube",
+              "from": [-0.55, -4.6, -0.4],
+              "to": [0.55, -4.1, 3.6],
+              "rotationOrigin": [0, -2.6, -0.4],
+              "faces": {
+                "north": {
+                  "texture": "#iron",
+                  "uv": [0.25, 1.5, 1.35, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "east": {
+                  "texture": "#iron",
+                  "uv": [0, 1.5, 4, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "south": {
+                  "texture": "#iron",
+                  "uv": [0, 1.5, 1.1, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "west": {
+                  "texture": "#iron",
+                  "uv": [0, 1.5, 4, 2],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "up": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 1.1, 4],
+                  "autoUv": false,
+                  "snapUv": false
+                },
+                "down": {
+                  "texture": "#iron",
+                  "uv": [0, 0, 1.1, 4],
+                  "autoUv": false,
+                  "snapUv": false
+                }
+              },
+              "renderPass": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": []
+}

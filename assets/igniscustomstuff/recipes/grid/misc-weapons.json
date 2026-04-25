@@ -1,0 +1,28 @@
+[
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-executionerswordhead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-short"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:executionersword-{material}"}
+  },
+    {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-narsilhead-*", "quantity": 1, "name": "material", "allowedVariants": ["meteoriciron"]},
+      "H": {"type": "item", "code": "igniscustomstuff:broken-narsil-*", "quantity": 1, "name": "material", "allowedVariants": ["meteoriciron"]}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:anduril-{material}"}
+  }
+]

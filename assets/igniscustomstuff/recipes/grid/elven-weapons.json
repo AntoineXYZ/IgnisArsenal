@@ -1,0 +1,54 @@
+[
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-elvenswordhead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-long"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:elvensword-{material}"}
+  },
+    {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-elvenglaivehead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-long"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:elvenglaive-{material}"}
+  },
+      {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-elvenshortaxehead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-short"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:elvenshortaxe-{material}"}
+  },
+    {
+    "ingredientPattern": "H,S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-elvenshieldband-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "game:metalplate-{material}", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "copyAttributesFrom": "S",
+    "width": 3,
+    "height": 1,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:elvenshield-{material}"}
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Elven sword head",
+    "pattern": [
+      [
+        "##____________",
+        "####______####",
+        "__##########__",
+        "_____#####____",
+        "______________"
+      ],
+      [
+        "##____________",
+        "_###______####",
+        "_____#####____",
+        "______________",
+        "______________"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-elvenswordhead-{metal}"
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Elven glaive head",
+    "pattern": [
+      ["____####", "_#####__", "#######_", "#######_", "_#####__", "____####"]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-elvenglaivehead-{metal}"
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Elven shortaxe head",
+    "pattern": [
+      [
+        "#_____________",
+        "####______####",
+        "_#############",
+        "___####______#",
+        "______________"
+      ],
+      [
+        "______________",
+        "__##______####",
+        "___########___",
+        "______________",
+        "______________"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-elvenshortaxehead-{metal}"
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Elven shield band",
+    "pattern": [
+      [
+        "__#########___",
+        "###___#___###_",
+        "#_____#_____#_",
+        "##___###___##_",
+        "_#___###___#__",
+        "##___###___##_",
+        "##____#____##_",
+        "_##___#___##__",
+        "__##__#__##___",
+        "___##_#_##____",
+        "____#####_____",
+        "_____###______"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-elvenshieldband-{metal}"
+    }
+  }
+]

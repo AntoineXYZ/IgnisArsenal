@@ -1,0 +1,139 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Dagger blade",
+    "pattern": [["____########__", "_###_##_##_###", "____########__"]],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-bfdaggerhead-{metal}"
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Solar Knight mace head",
+    "pattern": [
+      [
+        "__#_#__",
+        "__#_#__",
+        "#######",
+        "__#_#__",
+        "#######",
+        "__#_#__",
+        "__#_#__"
+      ],
+      [
+        "_______",
+        "__#_#__",
+        "_#####_",
+        "__#_#__",
+        "_#####_",
+        "__#_#__",
+        "_______"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-skmacehead-{metal}"
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Solar Knight sword head",
+    "pattern": [
+      [
+        "______________",
+        "_#############",
+        "##############",
+        "_#############",
+        "______________"
+      ],
+      [
+        "______________",
+        "_#############",
+        "##############",
+        "_#############",
+        "______________"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-skgreatswordhead-{metal}"
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "Dunekin Khopesh blade",
+    "pattern": [
+      [
+        "##____________",
+        "####______####",
+        "__##########__",
+        "_____#####____",
+        "______________"
+      ],
+      [
+        "##____________",
+        "_###______####",
+        "_____#####____",
+        "______________",
+        "______________"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:part-dkkhopeshhead-{metal}"
+    }
+  }
+]

@@ -1,0 +1,2031 @@
+{
+  "editor": {
+    "collapsedPaths": "Root/origin/handle,Root/Spear/Head/Blade/Cube12,Root/Spear/Dec/Cube27,Root/Spear/Head/Blade/blade_13,Root/Sowrd/Metal/Guard/ring_24,Root/origin/Large gear 2,Root/origin/Large gear 1,Root/Sowrd/Blade/Guard,Root/Sowrd/Metal/Blade/blade_3,Root/Spear/Dec/Cube10/Cube12,Root/Spear/Head/Blade/blade_2/blade_8,Root/Spear/Head/Blade/blade_2/blade_3,Root/Spear/Head/Blade/blade_2/blade_14,Root/Spear/Head/Blade/Cube7,Root/Spear/Head/Blade/Cube5,Root/Spear/Head/Blade/Cube4,Root/origin,Root/Spear/Dec/Cube35,Root/Sowrd/Metal/Guard/ring_17,Root/Sowrd/Cube2,Root/Spear/Head/Blade/blade_2,Root/Sowrd/Blade/blade_3,Root/Sowrd/Blade/tong,Root/Sowrd/Blade/blade_1,Root/Sowrd/Cube6,Root/Sowrd/Metal/Guard/ring_11,Root/Sowrd/Metal/blade_1/blade_11,Root/origin/segment end,Root/Sowrd/Blade/blade_6",
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "gold": [32, 16],
+    "black": [16, 16],
+    "meteoriciron": [16, 16]
+  },
+  "textures": {
+    "meteoriciron": "game:block/metal/plate/meteoriciron",
+    "gold": "game:item/tool/material/gold",
+    "black": "game:item/tool/shield/leather/black"
+  },
+  "elements": [
+    {
+      "name": "Sowrd",
+      "from": [8.1, 0.0, 8.0],
+      "to": [8.1, 0.0, 8.0],
+      "rotationOrigin": [8.1, 0.0, 8.0],
+      "rotationY": -90.0,
+      "rotationZ": -90.0,
+      "faces": {
+        "north": { "texture": "#blade", "uv": [0.0, 0.0, 0.5, 0.5] },
+        "east": { "texture": "#blade", "uv": [0.0, 0.0, 0.5, 0.5] },
+        "south": { "texture": "#blade", "uv": [0.0, 0.0, 0.5, 0.5] },
+        "west": { "texture": "#blade", "uv": [0.0, 0.0, 0.5, 0.5] },
+        "up": { "texture": "#blade", "uv": [0.0, 0.0, 0.5, 0.5] },
+        "down": { "texture": "#blade", "uv": [0.0, 0.0, 0.5, 0.5] }
+      },
+      "children": [
+        {
+          "name": "Metal",
+          "from": [0.0, 0.0, 0.0],
+          "to": [0.0, 0.0, 0.0],
+          "faces": {
+            "north": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "east": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "south": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "west": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "up": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "down": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] }
+          },
+          "children": [
+            {
+              "name": "tong",
+              "from": [-0.6, -0.4, 0.0],
+              "to": [0.6, 0.4, 14.0],
+              "rotationOrigin": [-0.6, -0.4, 0.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.0, 11.0, 10.0, 11.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.5, 3.0, 14.5, 3.5]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.5, 10.5, 10.5, 11.0]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 4.0, 14.0, 4.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [10.0, 2.0, 11.0, 16.0]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [10.0, 2.0, 11.0, 16.0]
+                }
+              },
+              "children": [
+                {
+                  "name": "Cube4",
+                  "from": [-0.15, 0.0, -0.7],
+                  "to": [-0.15, 0.0, -0.7],
+                  "rotationOrigin": [0.0, 0.0, 14.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.5, 0.5, 1.0]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.5, 0.5, 1.0, 1.0]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.0, 0.5, 1.5, 1.0]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.5, 0.5, 2.0, 1.0]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.5, 0.0, 1.0, 0.5]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "tong3",
+                      "from": [0.0, 0.2, 16.0],
+                      "to": [1.5, 1.0, 16.8],
+                      "rotationOrigin": [0.0, 0.5, 16.5],
+                      "rotationX": 180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 10.5, 11.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 9.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 9.5, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong4",
+                      "from": [1.5, 0.2, 17.0],
+                      "to": [3.0, 0.99, 17.8],
+                      "rotationOrigin": [1.5, 0.5, 17.0],
+                      "rotationX": 180.0,
+                      "rotationY": -45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 12.0, 10.5, 12.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.0, 10.0, 11.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.0, 9.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 10.5, 11.0, 11.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong5",
+                      "from": [-1.5, 0.2, 17.0],
+                      "to": [0.0, 0.99, 17.8],
+                      "rotationOrigin": [0.0, 0.5, 17.0],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 10.0, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.5, 9.5, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 10.5, 10.5, 11.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 10.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong6",
+                      "from": [-3.39, 0.0, 15.26],
+                      "to": [-0.89, 0.79, 16.01],
+                      "rotationOrigin": [-0.96, 0.5, 15.94],
+                      "rotationX": -180.0,
+                      "rotationY": -45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 9.0, 10.5, 9.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.5, 9.0, 11.0, 9.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.0, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.0, 10.5, 11.5, 11.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 10.5, 12.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 11.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong7",
+                      "from": [2.555, 0.005, 15.19],
+                      "to": [5.055, 0.815, 15.94],
+                      "rotationOrigin": [2.555, 0.5, 15.94],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.0, 10.5, 11.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.5, 10.5, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 11.5, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 12.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 12.5, 11.5]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong8",
+                      "from": [0.3, 0.2, 16.1],
+                      "to": [1.2, 0.6, 16.2],
+                      "rotationOrigin": [0.3, 0.5, 16.2],
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 9.5]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 9.5]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 9.5]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 9.5]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong9",
+                      "from": [0.3, 0.2, 16.2],
+                      "to": [0.65, 0.6, 16.3],
+                      "rotationOrigin": [0.3, 0.5, 16.2],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 9.5]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 9.5]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 9.5]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 9.5]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong10",
+                      "from": [0.9, 0.2, 16.2],
+                      "to": [1.2, 0.6, 16.3],
+                      "rotationOrigin": [1.2, 0.5, 16.2],
+                      "rotationX": -180.0,
+                      "rotationY": -45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 9.5]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 9.5]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 9.5]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 9.5]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong11",
+                      "from": [0.42, 0.2, 15.9],
+                      "to": [1.47, 0.6, 16.0],
+                      "rotationOrigin": [1.46, 0.5, 15.9],
+                      "rotationY": -45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 9.0, 9.5]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 9.5]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.5, 9.5]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [10.5, 9.0, 11.0, 9.5]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 9.0, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [9.0, 8.5, 10.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong12",
+                      "from": [0.03, 0.2, 15.9],
+                      "to": [1.08, 0.6, 16.0],
+                      "rotationOrigin": [0.03, 0.5, 15.9],
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 9.0, 9.5]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 9.5]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.5, 9.5]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [10.5, 9.0, 11.0, 9.5]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 9.0, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [9.0, 8.5, 10.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong13",
+                      "from": [-2.35, 0.01, 13.5],
+                      "to": [0.15, 0.79, 14.25],
+                      "rotationOrigin": [0.15, 0.0, 13.5],
+                      "rotationY": 70.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 10.5, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 11.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 11.5, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.0, 10.5, 11.5, 11.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 11.0, 12.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.5, 11.5, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong14",
+                      "from": [1.35, 0.01, 13.5],
+                      "to": [3.85, 0.79, 14.25],
+                      "rotationOrigin": [1.35, 0.0, 13.5],
+                      "rotationY": -70.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 10.5, 10.5, 11.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 11.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.0, 11.5]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.0, 12.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.0, 11.5]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "Cube5",
+                  "from": [-6.15, 0.0, -14.8],
+                  "to": [-6.15, 0.0, -14.8],
+                  "rotationOrigin": [-5.4, 0.4, 0.0],
+                  "rotationY": -90.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.5, 0.5, 1.0]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.5, 0.5, 1.0, 1.0]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.0, 0.5, 1.5, 1.0]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.5, 0.5, 2.0, 1.0]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.5, 0.0, 1.0, 0.5]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "tong15",
+                      "from": [0.0, -0.12, 16.0],
+                      "to": [1.5, 1.33, 16.8],
+                      "rotationOrigin": [0.0, 0.5, 16.5],
+                      "rotationX": 180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 10.5, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 9.5, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong16",
+                      "from": [1.5, -0.126, 17.0],
+                      "to": [3.0, 1.324, 17.8],
+                      "rotationOrigin": [1.5, 0.5, 17.0],
+                      "rotationX": 180.0,
+                      "rotationY": -45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 12.0, 10.5, 13.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.0, 10.0, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.0, 9.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 10.5, 11.0, 11.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong17",
+                      "from": [-1.5, -0.126, 17.0],
+                      "to": [0.0, 1.324, 17.8],
+                      "rotationOrigin": [0.0, 0.5, 17.0],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 10.0, 12.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.5, 9.5, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 10.5, 10.5, 11.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 10.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong18",
+                      "from": [-3.9, -0.32, 15.26],
+                      "to": [-0.9, 1.13, 16.01],
+                      "rotationOrigin": [-0.96, 0.5, 15.94],
+                      "rotationX": -180.0,
+                      "rotationY": -45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 9.0, 11.0, 10.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.5, 9.0, 11.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.5, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.0, 10.5, 11.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 11.0, 12.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 11.5, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong19",
+                      "from": [2.555, -0.324, 15.19],
+                      "to": [5.555, 1.116, 15.94],
+                      "rotationOrigin": [2.555, 0.5, 15.94],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.0, 11.0, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.5, 10.5, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 12.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 13.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 13.0, 11.5]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong20",
+                      "from": [0.3, -0.1, 16.1],
+                      "to": [1.2, 0.9, 16.2],
+                      "rotationOrigin": [0.3, 0.5, 16.2],
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong21",
+                      "from": [0.3, -0.1, 16.2],
+                      "to": [0.65, 0.9, 16.3],
+                      "rotationOrigin": [0.3, 0.5, 16.2],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong22",
+                      "from": [0.9, -0.1, 16.2],
+                      "to": [1.2, 0.9, 16.3],
+                      "rotationOrigin": [1.2, 0.5, 16.2],
+                      "rotationX": -180.0,
+                      "rotationY": -45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong23",
+                      "from": [0.42, -0.1, 15.9],
+                      "to": [1.47, 0.9, 16.0],
+                      "rotationOrigin": [1.46, 0.5, 15.9],
+                      "rotationY": -45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 9.0, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [10.5, 9.0, 11.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 9.0, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [9.0, 8.5, 10.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong24",
+                      "from": [0.03, -0.1, 15.9],
+                      "to": [1.08, 0.9, 16.0],
+                      "rotationOrigin": [0.03, 0.5, 15.9],
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 9.0, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [10.5, 9.0, 11.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 9.0, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [9.0, 8.5, 10.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong25",
+                      "from": [-2.35, -0.325, 13.5],
+                      "to": [1.0, 1.125, 14.25],
+                      "rotationOrigin": [0.15, 0.0, 13.5],
+                      "rotationY": 70.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 11.0, 12.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 12.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.0, 10.5, 11.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 11.5, 12.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.5, 12.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong26",
+                      "from": [0.5, -0.326, 13.5],
+                      "to": [3.85, 1.124, 14.25],
+                      "rotationOrigin": [1.35, 0.0, 13.5],
+                      "rotationY": -70.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 10.5, 11.0, 11.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.5, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.0, 12.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.5, 11.5]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong27",
+                      "from": [0.3, -0.12, 14.5],
+                      "to": [1.3, 1.32, 15.3],
+                      "rotationOrigin": [1.0, 0.5, 14.5],
+                      "rotationX": 180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 10.0, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.5, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 9.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong28",
+                      "from": [0.53, -0.32, 12.47],
+                      "to": [0.98, 1.12, 12.92],
+                      "rotationOrigin": [0.75, 0.4, 12.7],
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 9.5, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 8.5, 12.0]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "Cube14",
+                  "from": [5.85, 0.0, -14.8],
+                  "to": [5.85, 0.0, -14.8],
+                  "rotationOrigin": [6.6, 0.4, 0.0],
+                  "rotationY": 90.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.5, 0.5, 1.0]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.5, 0.5, 1.0, 1.0]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.0, 0.5, 1.5, 1.0]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.5, 0.5, 2.0, 1.0]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.5, 0.0, 1.0, 0.5]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "tong29",
+                      "from": [0.0, -0.12, 16.0],
+                      "to": [1.5, 1.33, 16.8],
+                      "rotationOrigin": [0.0, 0.5, 16.5],
+                      "rotationX": 180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 10.5, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 9.5, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong30",
+                      "from": [1.5, -0.126, 17.0],
+                      "to": [3.0, 1.324, 17.8],
+                      "rotationOrigin": [1.5, 0.5, 17.0],
+                      "rotationX": 180.0,
+                      "rotationY": -45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 12.0, 10.5, 13.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.0, 10.0, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.0, 9.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 10.5, 11.0, 11.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong31",
+                      "from": [-1.5, -0.126, 17.0],
+                      "to": [0.0, 1.324, 17.8],
+                      "rotationOrigin": [0.0, 0.5, 17.0],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 10.0, 12.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.5, 9.5, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 10.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 10.5, 10.5, 11.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 10.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong32",
+                      "from": [-3.9, -0.32, 15.26],
+                      "to": [-0.9, 1.13, 16.01],
+                      "rotationOrigin": [-0.96, 0.5, 15.94],
+                      "rotationX": -180.0,
+                      "rotationY": -45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 9.0, 11.0, 10.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.5, 9.0, 11.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.5, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.0, 10.5, 11.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 11.0, 12.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 11.5, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong33",
+                      "from": [2.555, -0.324, 15.19],
+                      "to": [5.555, 1.116, 15.94],
+                      "rotationOrigin": [2.555, 0.5, 15.94],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.0, 11.0, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.5, 10.5, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 12.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 13.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 13.0, 11.5]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong34",
+                      "from": [0.3, -0.1, 16.1],
+                      "to": [1.2, 0.9, 16.2],
+                      "rotationOrigin": [0.3, 0.5, 16.2],
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong35",
+                      "from": [0.3, -0.1, 16.2],
+                      "to": [0.65, 0.9, 16.3],
+                      "rotationOrigin": [0.3, 0.5, 16.2],
+                      "rotationX": -180.0,
+                      "rotationY": 45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong36",
+                      "from": [0.9, -0.1, 16.2],
+                      "to": [1.2, 0.9, 16.3],
+                      "rotationOrigin": [1.2, 0.5, 16.2],
+                      "rotationX": -180.0,
+                      "rotationY": -45.0,
+                      "rotationZ": -180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 8.5, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [8.5, 9.0, 9.0, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 8.5, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [8.5, 8.5, 9.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong37",
+                      "from": [0.42, -0.1, 15.9],
+                      "to": [1.47, 0.9, 16.0],
+                      "rotationOrigin": [1.46, 0.5, 15.9],
+                      "rotationY": -45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 9.0, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [10.5, 9.0, 11.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 9.0, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [9.0, 8.5, 10.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong38",
+                      "from": [0.03, -0.1, 15.9],
+                      "to": [1.08, 0.9, 16.0],
+                      "rotationOrigin": [0.03, 0.5, 15.9],
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#gold",
+                          "uv": [8.0, 9.0, 9.0, 10.0]
+                        },
+                        "east": {
+                          "texture": "#gold",
+                          "uv": [9.0, 9.0, 9.5, 10.0]
+                        },
+                        "south": {
+                          "texture": "#gold",
+                          "uv": [9.5, 9.0, 10.5, 10.0]
+                        },
+                        "west": {
+                          "texture": "#gold",
+                          "uv": [10.5, 9.0, 11.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#gold",
+                          "uv": [8.0, 8.5, 9.0, 9.0]
+                        },
+                        "down": {
+                          "texture": "#gold",
+                          "uv": [9.0, 8.5, 10.0, 9.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong39",
+                      "from": [-2.35, -0.325, 13.5],
+                      "to": [1.0, 1.125, 14.25],
+                      "rotationOrigin": [0.15, 0.0, 13.5],
+                      "rotationY": 70.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 11.0, 12.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 12.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.0, 10.5, 11.5, 11.5]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.5, 11.5, 12.0]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.5, 12.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong40",
+                      "from": [0.5, -0.326, 13.5],
+                      "to": [3.85, 1.124, 14.25],
+                      "rotationOrigin": [1.35, 0.0, 13.5],
+                      "rotationY": -70.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 10.5, 11.0, 11.5]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.5, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [10.0, 11.0, 10.5, 12.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.0, 12.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 11.5, 11.5]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong41",
+                      "from": [0.3, -0.12, 14.5],
+                      "to": [1.3, 1.32, 15.3],
+                      "rotationOrigin": [1.0, 0.5, 14.5],
+                      "rotationX": 180.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 10.0, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.5, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.5, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 9.0, 12.0]
+                        }
+                      }
+                    },
+                    {
+                      "name": "tong42",
+                      "from": [0.53, -0.32, 12.47],
+                      "to": [0.98, 1.12, 12.92],
+                      "rotationOrigin": [0.75, 0.4, 12.7],
+                      "rotationY": 45.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.0, 11.0, 9.5, 12.0]
+                        },
+                        "east": {
+                          "texture": "#meteoriciron",
+                          "uv": [9.5, 11.5, 10.0, 12.5]
+                        },
+                        "south": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.0, 12.0]
+                        },
+                        "west": {
+                          "texture": "#meteoriciron",
+                          "uv": [11.5, 9.0, 12.0, 10.0]
+                        },
+                        "up": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.5, 11.0, 9.0, 11.5]
+                        },
+                        "down": {
+                          "texture": "#meteoriciron",
+                          "uv": [8.0, 11.5, 8.5, 12.0]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle",
+          "from": [0.0, 0.0, 0.0],
+          "to": [0.0, 0.0, 1.0],
+          "faces": {
+            "north": { "texture": "#black", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "east": { "texture": "#black", "uv": [0.0, 0.0, 1.0, 0.5] },
+            "south": { "texture": "#black", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "west": { "texture": "#black", "uv": [0.0, 0.0, 1.0, 0.5] },
+            "up": { "texture": "#black", "uv": [0.0, 0.0, 0.5, 1.0] },
+            "down": { "texture": "#black", "uv": [0.0, 0.0, 0.5, 1.0] }
+          },
+          "children": [
+            {
+              "name": "handle_0",
+              "from": [-0.9, -0.5, 0.1],
+              "to": [0.9, 0.5, 6.5],
+              "rotationOrigin": [-0.9, -0.5, 0.1],
+              "faces": {
+                "north": { "texture": "#black", "uv": [4.5, 6.0, 6.0, 7.0] },
+                "east": { "texture": "#black", "uv": [2.0, 8.0, 8.0, 9.0] },
+                "south": { "texture": "#black", "uv": [6.0, 7.5, 7.5, 8.5] },
+                "west": { "texture": "#black", "uv": [1.5, 8.0, 7.5, 9.0] },
+                "up": { "texture": "#black", "uv": [7.5, 2.0, 9.0, 8.0] },
+                "down": { "texture": "#black", "uv": [8.0, 2.5, 9.5, 8.5] }
+              }
+            },
+            {
+              "name": "handle_2",
+              "from": [-1.0, -0.6, 6.3],
+              "to": [1.0, 0.6, 7.0],
+              "rotationOrigin": [-1.0, -0.6, 6.3],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.0, 10.5, 11.0, 11.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.5, 11.0, 10.0, 12.0]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.0, 10.5, 11.0, 11.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [10.0, 11.0, 10.5, 12.0]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [8.5, 11.5, 10.5, 12.0]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.0, 11.0, 11.0, 11.5]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube2",
+          "from": [0.0, 0.0, 0.5],
+          "to": [0.0, 0.0, 0.5],
+          "rotationOrigin": [0.0, 0.0, 0.0],
+          "rotationX": 45.0,
+          "faces": {
+            "north": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "east": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "south": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "west": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "up": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "down": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] }
+          },
+          "children": [
+            {
+              "name": "Cube3",
+              "from": [-6.0, -0.5, -1.0],
+              "to": [6.0, 0.5, 0.0],
+              "rotationOrigin": [-6.0, -1.0, -1.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [1.0, 0.0, 13.0, 1.0]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [11.0, 11.0, 12.0, 12.0]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [2.0, 9.5, 14.0, 10.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [9.0, 11.5, 10.0, 12.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [2.5, 10.0, 14.5, 11.0]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [3.0, 11.5, 15.0, 12.5]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cube6",
+          "from": [0.0, 0.0, 0.0],
+          "to": [0.0, 0.0, 0.0],
+          "rotationOrigin": [1.0, 0.0, 0.0],
+          "faces": {
+            "north": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "east": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "south": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "west": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "up": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] },
+            "down": { "texture": "#meteoriciron", "uv": [0.0, 0.0, 0.5, 0.5] }
+          },
+          "children": [
+            {
+              "name": "Cube10",
+              "from": [0.0, 0.0, 0.0],
+              "to": [0.0, 0.0, 0.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                }
+              },
+              "children": [
+                {
+                  "name": "Cube7",
+                  "from": [-0.25, -0.15, -11.0],
+                  "to": [0.25, 0.15, -1.0],
+                  "rotationOrigin": [0.0, 0.0, 5.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [9.0, 6.0, 9.5, 6.5]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 6.0, 10.0, 6.5]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [10.0, 5.5, 10.5, 6.0]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 5.5, 10.0, 6.0]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.0, 0.0, 11.0, 0.5],
+                      "rotation": 90
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [1.0, 0.0, 11.0, 0.5],
+                      "rotation": 90
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cube11",
+              "from": [4.5, 0.0, 0.0],
+              "to": [4.5, 0.0, 0.0],
+              "rotationOrigin": [5.0, 0.0, 0.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                }
+              },
+              "children": [
+                {
+                  "name": "Cube12",
+                  "from": [-4.25, -0.2, -13.0],
+                  "to": [-3.75, 0.2, 0.0],
+                  "rotationOrigin": [-3.0, 0.0, 3.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 12.0, 13.0, 12.5]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 5.5, 13.0, 6.0]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [12.0, 0.5, 12.5, 13.5]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [12.0, 0.5, 12.5, 13.5]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cube15",
+              "from": [-3.5, 0.0, 0.0],
+              "to": [-3.5, 0.0, 0.0],
+              "rotationOrigin": [-2.0, 0.0, 0.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                }
+              },
+              "children": [
+                {
+                  "name": "Cube23",
+                  "from": [2.75, -0.2, -9.0],
+                  "to": [3.25, 0.2, 0.0],
+                  "rotationOrigin": [2.0, 0.0, 7.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 3.5, 9.0, 4.0]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 12.0, 9.0, 12.5]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [8.0, 0.0, 8.5, 9.0]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [8.0, 0.0, 8.5, 9.0]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cube19",
+              "from": [4.0, 0.0, 0.0],
+              "to": [4.0, 0.0, 0.0],
+              "rotationOrigin": [4.0, 0.0, 0.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                }
+              },
+              "children": [
+                {
+                  "name": "Cube20",
+                  "from": [-3.25, -0.1, -15.0],
+                  "to": [-2.75, 0.1, 0.0],
+                  "rotationOrigin": [0.0, 0.0, 1.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 15.0, 0.5]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 15.0, 0.5]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [13.5, 0.0, 14.0, 15.0]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [13.5, 0.0, 14.0, 15.0]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cube27",
+              "from": [-4.0, 0.0, 0.0],
+              "to": [-4.0, 0.0, 0.0],
+              "rotationOrigin": [-4.0, 0.0, 0.0],
+              "faces": {
+                "north": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "east": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "south": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "west": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "up": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                },
+                "down": {
+                  "texture": "#meteoriciron",
+                  "uv": [0.0, 0.0, 0.5, 0.5]
+                }
+              },
+              "children": [
+                {
+                  "name": "Cube34",
+                  "from": [2.75, -0.1, -7.0],
+                  "to": [3.25, 0.1, 0.0],
+                  "rotationOrigin": [0.0, 0.0, 9.0],
+                  "faces": {
+                    "north": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "east": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 4.5, 7.0, 5.0]
+                    },
+                    "south": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 0.0, 0.5, 0.5]
+                    },
+                    "west": {
+                      "texture": "#meteoriciron",
+                      "uv": [0.0, 5.5, 7.0, 6.0]
+                    },
+                    "up": {
+                      "texture": "#meteoriciron",
+                      "uv": [12.0, 0.0, 12.5, 7.0]
+                    },
+                    "down": {
+                      "texture": "#meteoriciron",
+                      "uv": [12.0, 0.0, 12.5, 7.0]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cube9",
+          "from": [-1.0, -0.375, -1.25],
+          "to": [1.0, 0.375, 0.75],
+          "rotationOrigin": [0.0, 0.0, -0.25],
+          "rotationY": -45.0,
+          "faces": {
+            "north": {
+              "texture": "#meteoriciron",
+              "uv": [9.0, 11.0, 11.0, 11.5]
+            },
+            "east": {
+              "texture": "#meteoriciron",
+              "uv": [8.5, 11.0, 10.5, 11.5]
+            },
+            "south": {
+              "texture": "#meteoriciron",
+              "uv": [8.5, 11.5, 10.5, 12.0]
+            },
+            "west": {
+              "texture": "#meteoriciron",
+              "uv": [9.0, 10.5, 11.0, 11.0]
+            },
+            "up": {
+              "texture": "#meteoriciron",
+              "uv": [8.5, 11.0, 10.5, 13.0],
+              "rotation": 90
+            },
+            "down": {
+              "texture": "#meteoriciron",
+              "uv": [9.0, 11.0, 11.0, 13.0],
+              "rotation": 90
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

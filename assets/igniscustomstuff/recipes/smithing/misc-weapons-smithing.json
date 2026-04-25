@@ -1,0 +1,40 @@
+[
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+    "name": "Executioner sword head",
+    "pattern": [[
+      "______________",
+      "_#############",
+      "##############",
+      "_#############",
+      "______________"
+    ],
+    [
+      "______________",
+      "_#############",
+      "##############",
+      "_#############",
+      "______________"
+    ]],
+    "output": {"type": "item", "code": "igniscustomstuff:part-executionerswordhead-{metal}"}
+  },
+    {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["meteoriciron"]},
+    "name": "Anduril sword blade",
+    "pattern": [[
+      "______________",
+      "_#############",
+      "##############",
+      "_#############",
+      "______________"
+    ],
+    [
+      "______________",
+      "_#############",
+      "##############",
+      "_#############",
+      "______________"
+    ]],
+    "output": {"type": "item", "code": "igniscustomstuff:part-narsilhead-{metal}"}
+  }
+]

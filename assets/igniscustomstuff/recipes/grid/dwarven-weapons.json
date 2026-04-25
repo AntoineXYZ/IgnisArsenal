@@ -1,0 +1,80 @@
+[
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-dwarvenwarhammerhead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-long"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:dwarvenwarhammer-{material}"}
+  },
+    {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-dwarvenshortaxehead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-short"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:dwarvenshortaxe-{material}"}
+  },
+      {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-dwarvenbattleaxehead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-long"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:dwarvenbattleaxe-{material}"}
+  },
+    {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-dwarvenspearhead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-long"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:dwarvenspear-{material}"}
+  },
+      {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-dwarvenshorthammerhead-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-short"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:dwarvenshorthammer-{material}"}
+  },
+  {
+    "ingredientPattern": "H,S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "igniscustomstuff:part-dwarvenshieldband-*", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "game:metalplate-{material}", "quantity": 1, "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+    },
+    "copyAttributesFrom": "S",
+    "width": 3,
+    "height": 1,
+    "name": "halberd",
+    "output": {"type": "item", "code": "igniscustomstuff:dwarvenshield-{material}"}
+  }
+]

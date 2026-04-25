@@ -1,0 +1,124 @@
+﻿{
+  "code": "dwarvenshortaxe",
+  "class": "CombatOverhaul:MeleeWeapon",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 2,
+        "sprintKey": true,
+        "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+        "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+      }
+    },
+    {
+      "name": "CombatOverhaul:TexturesFromAttributes",
+      "properties": {
+        "Textures": [
+          {
+            "Code": "oak",
+            "Attribute": "handleTexture",
+            "Default": "game:block/wood/bark/quad/debarked/oak",
+            "HandbookValues": [
+              "game:block/wood/bark/quad/debarked/aged",
+              "game:block/wood/bark/quad/debarked/birch",
+              "game:block/wood/bark/quad/debarked/oak",
+              "game:block/wood/bark/quad/debarked/maple",
+              "game:block/wood/bark/quad/debarked/pine",
+              "game:block/wood/bark/quad/debarked/acacia",
+              "game:block/wood/bark/quad/debarked/kapok",
+              "game:block/wood/bark/quad/debarked/baldcypress",
+              "game:block/wood/bark/quad/debarked/larch",
+              "game:block/wood/bark/quad/debarked/redwood",
+              "game:block/wood/bark/quad/debarked/ebony",
+              "game:block/wood/bark/quad/debarked/walnut",
+              "game:block/wood/bark/quad/debarked/purpleheart"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "variantgroups": [
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+  ],
+  "textures": {
+    "iron": {"base": "igniscustomstuff:tools/{material}"}
+  },
+  "shape": {"base": "igniscustomstuff:dwarven-shortaxe"},
+  "tool": "sword",
+
+  "attributes": {
+    		"toolrackTransform": {
+			"translation": { "x": -0.35, "y": 0.38, "z": 0.92 },
+			"rotation": { "x": 179, "y": 0, "z": -2 },
+			"origin": { "x": 0, "y": 0, "z": 0 }
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0.5, "y": 0.98, "z": 0.64 },
+			"rotation": { "x": 20, "y": 0, "z": -90 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.67
+		},
+    "handbook": {"groupBy": ["dwarvenshortaxe-{material}"]},
+    "ProficiencyStat": "axesProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": true,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": true,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "HitOnlyOneEntity": false,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-copper": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, 0, 0.4, 1.4, 0, -0.1]}],
+          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, 0, 0.4, 1.4, 0, -0.1]}],
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 4.5, "ArmorPiercingTier": 1}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, 0, 0.4, 1.4, 0, -0.1]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 4.5, "ArmorPiercingTier": 2}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, 0, 0.4, 1.4, 0, -0.1]}],
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 5, "ArmorPiercingTier": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, 0, 0.4, 1.4, 0, -0.1]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimation": {"Main": ["combatoverhaul:sword-falx-slash-1", "combatoverhaul:sword-falx-slash-2"]},
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
+      "ReadyAnimation": "combatoverhaul:sword-falx-ready",
+      "IdleAnimation": "combatoverhaul:sword-falx-idle",
+      "BlockCooldownMs": 300,
+      "BlockAnimation": "armory:sword-short-parry",
+      "Parry": {
+        "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand"],
+        "Directions": [90, 90, 90, 90],
+        "Sound": "game:sounds/held/shieldblock-metal-heavy",
+        "BlockTierByType": 
+        { 
+          "*-copper" : {"BluntAttack": 2, "SlashingAttack": 2, "PiercingAttack": 2},
+          "*-*bronze" : {"BluntAttack": 3, "SlashingAttack": 3, "PiercingAttack": 3},
+          "*-*iron" : {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5},
+          "*-steel" : {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+        },
+        "CanBlockProjectiles": false
+      }
+    }
+  },
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
+  "creativeinventory": {"general": ["*"], "ignis-stuff": ["*"]},
+
+  	"guiTransform": {
+		"translation": { "x": 19, "y": 45, "z": 0 },
+		"rotation": { "x": 23, "y": -34, "z": -47 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scaleXyz": { "x": -1.76, "y": 1.76, "z": 1.76 }
+	},
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 3},
+	"tpHandTransform": {
+		"translation": { "x": 0.4, "y": -0.5, "z": 0 },
+		"rotation": { "x": 90, "y": 0, "z": 0 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 0.8
+	}
+}

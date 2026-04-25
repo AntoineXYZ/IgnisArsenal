@@ -1,0 +1,206 @@
+[
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "igniscustomstuff:part-bfdaggerhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": { "type": "item", "code": "armory:handle-short" }
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:bf-dagger-{material}"
+    }
+  },
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "igniscustomstuff:part-dkkhopeshhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": { "type": "item", "code": "armory:handle-short" }
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:dk-khopesh-{material}"
+    }
+  },
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "igniscustomstuff:part-skgreatswordhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": { "type": "item", "code": "armory:handle-short" }
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:sk-greatsword-{material}"
+    }
+  },
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "igniscustomstuff:part-skmacehead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": { "type": "item", "code": "armory:handle-long" }
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:sk-mace-{material}"
+    }
+  },
+  {
+    "ingredientPattern": "H,S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:rod-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": {
+        "type": "item",
+        "code": "game:leather-normal-black",
+        "quantity": 1
+      }
+    },
+    "copyAttributesFrom": "S",
+    "width": 3,
+    "height": 1,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:vault-shield-{material}"
+    }
+  },
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:rod-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": { "type": "item", "code": "armory:handle-short" }
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:vault-baton-{material}"
+    }
+  },
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "armory:handle-long",
+        "quantity": 1
+      },
+      "H": { "type": "item", "code": "armory:handle-short" }
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "halberd",
+    "output": {
+      "type": "item",
+      "code": "igniscustomstuff:vault-baton-wood"
+    }
+  }
+]

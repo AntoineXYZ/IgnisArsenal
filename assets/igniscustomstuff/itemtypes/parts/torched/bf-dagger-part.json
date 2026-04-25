@@ -1,0 +1,73 @@
+{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [
+    { "code": "type", "states": ["bfdaggerhead"] },
+    {
+      "code": "material",
+      "states": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    }
+  ],
+  "shape": { "base": "igniscustomstuff:torched/parts/bf-dagger-part" },
+  "textures": {
+    "iron": { "base": "igniscustomstuff:tools/{material}" }
+  },
+  "attributes": {
+    "groundStorageTransform": {
+      "translation": { "x": 0.18, "y": 0, "z": 0.86 },
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.72
+    },
+    "onTongTransform": {
+      "translation": { "x": -0.4, "y": -0.28, "z": 0.42 },
+      "rotation": { "x": 1, "y": 0, "z": -17 },
+      "origin": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.82
+    }
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "placeRemoveSound": "sounds/player/build",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "creativeinventory": { "general": ["*"], "ignis-stuff": ["*"] },
+  "guiTransform": {
+    "translation": { "x": -51, "y": -4, "z": 0 },
+    "rotation": { "x": -45, "y": 36, "z": -6 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 3.04
+  },
+  "tpHandTransform": {
+    "translation": { "x": 0.2, "y": 0, "z": -0.45 },
+    "rotation": { "x": 0, "y": 90, "z": 0 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 0.6
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0.0, "z": 0 },
+    "rotation": { "x": -0, "y": 0, "z": 0 },
+    "origin": { "x": 0, "y": 0, "z": 0 },
+    "scale": 2.5
+  }
+}

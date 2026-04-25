@@ -1,0 +1,29 @@
+{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [{"code": "type", "states": ["dwarvenwarhammerhead"]}, {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}],
+  "shape": {"base": "igniscustomstuff:dwarven-warhammer-head"},
+  "textures": {
+    "iron": {"base": "igniscustomstuff:tools/{material}"},
+    "gold": {"base": "game:item/tool/material/gold"}
+  },
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.25, "y": 0, "z": 0.25}, "rotation": {"x": 0, "y": -0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.50},
+		"onTongTransform": {
+			"translation": { "x": -1.06, "y": -1.4, "z": -0.4 },
+			"rotation": { "x": -61, "y": -82, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.4
+		}
+	},
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {"layout": "Quadrants", "placeRemoveSound": "sounds/player/build", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1}}
+    }
+  ],
+  "creativeinventory": {"general": ["*"], "ignis-stuff": ["*"]},
+  "guiTransform": {"translation": {"x": -26, "y": -6, "z": 0}, "rotation": {"x": -30, "y": 38, "z": -6}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.5},
+  "tpHandTransform": {"translation": {"x": 0.2, "y": 0, "z": -0.45}, "rotation": {"x": 0, "y": 90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+  "groundTransform": {"translation": {"x": 0, "y": 0.0, "z": 0}, "rotation": {"x": -0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 2.5}
+}
