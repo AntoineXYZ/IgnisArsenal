@@ -110,12 +110,13 @@
                 "CollideWithTerrain": true,
                 "MaxReach": 12,
                 "DamageTypesByType": {
-                    "*-iron": [
+                    "*-lich-iron": [
                         {
                             "Damage": {
                                 "DamageType": "SlashingAttack",
                                 "Tier": 4,
-                                "Damage": 6.5
+                                "Damage": 8,
+                                "ArmorPiercingTier": 1
                             },
                             "Knockback": 1,
                             "DurabilityDamage": 1,
@@ -134,12 +135,13 @@
                             "Collider": [ 0.5, 0, 0.5, 3.8, 0, 0.5 ]
                         }
                     ],
-                    "*-steel": [
+                    "*-lich-steel": [
                         {
                             "Damage": {
                                 "DamageType": "SlashingAttack",
                                 "Tier": 6,
-                                "Damage": 7
+                                "Damage": 8.5,
+                                "ArmorPiercingTier": 3
                             },
                             "Knockback": 1,
                             "DurabilityDamage": 1,

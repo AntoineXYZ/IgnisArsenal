@@ -113,7 +113,7 @@
               },
               "Knockback": 0,
               "DurabilityDamage": 1,
-              "Collider": [0.6, -0.2, 0.5, 3.6, -0.2, 0.5]
+                "Collider": [ 0.6, 0, 0.5, 3.4, 0, 0.5 ]
             }
           ],
           "*-*bronze": [
@@ -125,7 +125,7 @@
               },
               "Knockback": 0,
               "DurabilityDamage": 1,
-              "Collider": [0.6, -0.2, 0.5, 3.6, -0.2, 0.5]
+                "Collider": [ 0.6, 0, 0.5, 3.4, 0, 0.5 ]
             }
           ],
           "*-iron": [
@@ -138,7 +138,7 @@
               },
               "Knockback": 1,
               "DurabilityDamage": 1,
-              "Collider": [0.6, -0.2, 0.5, 3.6, -0.2, 0.5]
+                "Collider": [ 0.6, 0, 0.5, 3.4, 0, 0.5 ]
             }
           ],
           "*-meteoriciron": [
@@ -151,7 +151,7 @@
               },
               "Knockback": 1,
               "DurabilityDamage": 1,
-              "Collider": [0.6, -0.2, 0.5, 3.6, -0.2, 0.5]
+                "Collider": [ 0.6, 0, 0.5, 3.4, 0, 0.5 ]
             }
           ],
           "*-steel": [
@@ -164,7 +164,7 @@
               },
               "Knockback": 1,
               "DurabilityDamage": 1,
-              "Collider": [0.6, -0.2, 0.5, 3.6, -0.2, 0.5]
+                "Collider": [ 0.6, 0, 0.5, 3.4, 0, 0.5 ]
             }
           ]
         }
@@ -204,24 +204,24 @@
         "Sound": "game:sounds/held/shieldblock-metal-heavy",
         "BlockTierByType": {
           "*-copper": {
-            "BluntAttack": 2,
-            "SlashingAttack": 2,
-            "PiercingAttack": 2
-          },
-          "*-*bronze": {
             "BluntAttack": 3,
             "SlashingAttack": 3,
             "PiercingAttack": 3
           },
-          "*-*iron": {
+          "*-*bronze": {
             "BluntAttack": 5,
             "SlashingAttack": 5,
             "PiercingAttack": 5
           },
-          "*-steel": {
+          "*-*iron": {
             "BluntAttack": 7,
             "SlashingAttack": 7,
             "PiercingAttack": 7
+          },
+          "*-steel": {
+            "BluntAttack": 9,
+            "SlashingAttack": 9,
+            "PiercingAttack": 9
           }
         },
         "CanBlockProjectiles": false
@@ -242,24 +242,24 @@
         "Sound": "game:sounds/held/shieldblock-metal-light",
         "BlockTierByType": {
           "*-copper": {
+            "BluntAttack": 2,
+            "SlashingAttack": 2,
+            "PiercingAttack": 2
+          },
+          "*-*bronze": {
             "BluntAttack": 3,
             "SlashingAttack": 3,
             "PiercingAttack": 3
           },
-          "*-*bronze": {
+          "*-*iron": {
             "BluntAttack": 5,
             "SlashingAttack": 5,
             "PiercingAttack": 5
           },
-          "*-*iron": {
+          "*-steel": {
             "BluntAttack": 7,
             "SlashingAttack": 7,
             "PiercingAttack": 7
-          },
-          "*-steel": {
-            "BluntAttack": 9,
-            "SlashingAttack": 9,
-            "PiercingAttack": 9
           }
         },
         "CanBlockProjectiles": false
@@ -297,6 +297,6 @@
     "translation": { "x": 0.25, "y": 0.0, "z": 0.5 },
     "rotation": { "x": 0, "y": 0, "z": 0 },
     "origin": { "x": 0, "y": 0, "z": 0 },
-    "scale": 0.45
+    "scale": 0.6
   }
 }

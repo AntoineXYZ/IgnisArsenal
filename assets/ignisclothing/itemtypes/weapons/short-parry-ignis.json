@@ -191,17 +191,58 @@
               "MaxReach": 9,
               "DamageTypes": [
                 {
-                  "DamageByType": {
-                    "*-parrydagger-copper":        {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 3},
-                    "*-parrydagger-tinbronze":     {"DamageType": "PiercingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-bismuthbronze": {"DamageType": "PiercingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-blackbronze":   {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 3.5},
-                    "*-parrydagger-iron":          {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-meteoriciron":  {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 4},
-                    "*-parrydagger-steel":         {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 4.5},
-                    "*-parrydagger-silver":        {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-gold":          {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4}
-                  },
+                    "DamageByType": {
+                        "*-parrydagger-copper": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 2,
+                            "Damage": 4
+                        },
+                        "*-parrydagger-tinbronze": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-bismuthbronze": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-blackbronze": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 4,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-iron": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-meteoriciron": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 5,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-steel": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 6,
+                            "Damage": 5.5,
+                            "ArmorPiercingTier": 2
+                        },
+                        "*-parrydagger-silver": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-gold": {
+                            "DamageType": "PiercingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        }
+                    },
                   "Knockback": 0,
                   "DurabilityDamage": 1,
                   "Collider": [0.6, 0, 0.5, 0.95000005, 0, 0.5]
@@ -216,17 +257,58 @@
               "MaxReach": 9,
               "DamageTypes": [
                 {
-                  "DamageByType": {
-                    "*-parrydagger-copper":        {"DamageType": "SlashingAttack", "Tier": 2, "Damage": 3},
-                    "*-parrydagger-tinbronze":     {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-bismuthbronze": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-blackbronze":   {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 3.5},
-                    "*-parrydagger-iron":          {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-meteoriciron":  {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 4},
-                    "*-parrydagger-steel":         {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 4.5},
-                    "*-parrydagger-silver":        {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-gold":          {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4}
-                  },
+                    "DamageByType": {
+                        "*-parrydagger-copper": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 2,
+                            "Damage": 4
+                        },
+                        "*-parrydagger-tinbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-bismuthbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-blackbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-iron": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-meteoriciron": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 5,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-steel": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 6,
+                            "Damage": 5.5,
+                            "ArmorPiercingTier": 2
+                        },
+                        "*-parrydagger-silver": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-gold": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        }
+                    },
                   "Knockback": 0,
                   "DurabilityDamage": 1,
                   "Collider": [0.6, 0, 0.5, 0.95000005, 0, 0.5]
@@ -241,17 +323,58 @@
               "MaxReach": 9,
               "DamageTypes": [
                 {
-                  "DamageByType": {
-                    "*-parrydagger-copper":        {"DamageType": "SlashingAttack", "Tier": 2, "Damage": 3},
-                    "*-parrydagger-tinbronze":     {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-bismuthbronze": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-blackbronze":   {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 3.5},
-                    "*-parrydagger-iron":          {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-meteoriciron":  {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 4},
-                    "*-parrydagger-steel":         {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 4.5},
-                    "*-parrydagger-silver":        {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-gold":          {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4}
-                  },
+                    "DamageByType": {
+                        "*-parrydagger-copper": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 2,
+                            "Damage": 4
+                        },
+                        "*-parrydagger-tinbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-bismuthbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-blackbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-iron": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-meteoriciron": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 5,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-steel": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 6,
+                            "Damage": 5.5,
+                            "ArmorPiercingTier": 2
+                        },
+                        "*-parrydagger-silver": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-gold": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        }
+                    },
                   "Knockback": 0,
                   "DurabilityDamage": 1,
                   "Collider": [0.6, 0, 0.5, 0.95000005, 0, 0.5]
@@ -266,17 +389,58 @@
               "MaxReach": 9,
               "DamageTypes": [
                 {
-                  "DamageByType": {
-                    "*-parrydagger-copper":        {"DamageType": "SlashingAttack", "Tier": 2, "Damage": 3},
-                    "*-parrydagger-tinbronze":     {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-bismuthbronze": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 3.5},
-                    "*-parrydagger-blackbronze":   {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 3.5},
-                    "*-parrydagger-iron":          {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-meteoriciron":  {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 4},
-                    "*-parrydagger-steel":         {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 4.5},
-                    "*-parrydagger-silver":        {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4},
-                    "*-parrydagger-gold":          {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4}
-                  },
+                    "DamageByType": {
+                        "*-parrydagger-copper": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 2,
+                            "Damage": 4
+                        },
+                        "*-parrydagger-tinbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-bismuthbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 3,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-blackbronze": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 4.5
+                        },
+                        "*-parrydagger-iron": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-meteoriciron": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 5,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-steel": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 6,
+                            "Damage": 5.5,
+                            "ArmorPiercingTier": 2
+                        },
+                        "*-parrydagger-silver": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        },
+                        "*-parrydagger-gold": {
+                            "DamageType": "SlashingAttack",
+                            "Tier": 4,
+                            "Damage": 5,
+                            "ArmorPiercingTier": 1
+                        }
+                    },
                   "Knockback": 0,
                   "DurabilityDamage": 1,
                   "Collider": [0.6, 0, 0.5, 0.95000005, 0, 0.5]
